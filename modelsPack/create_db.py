@@ -2,7 +2,7 @@
 from sqlalchemy import create_engine
 from modelsPack.models import Base
 
-# DATABASE_URL = ('sqlite:////Users/izafrani@riverbed.com/idan_stuff/Projects_backend/Blog_Server_BackEnd/modelsPack'
+# DATABASE_URL = ('sqlite://///Blog_Server_BackEnd/modelsPack'
 #                 '/blogs.db')
 # Relative path inside the container
 relative_path = '/app/modelsPack/blogs.db'
